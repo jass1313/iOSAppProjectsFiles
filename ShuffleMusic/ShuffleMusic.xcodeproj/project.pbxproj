@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48D435B2207783C1001DCC2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D435B1207783C1001DCC2E /* AppDelegate.swift */; };
+		48D435B4207783C1001DCC2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D435B3207783C1001DCC2E /* ViewController.swift */; };
+		48D435B7207783C1001DCC2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D435B5207783C1001DCC2E /* Main.storyboard */; };
+		48D435B9207783C1001DCC2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D435B8207783C1001DCC2E /* Assets.xcassets */; };
+		48D435BC207783C1001DCC2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D435BA207783C1001DCC2E /* LaunchScreen.storyboard */; };
+		48D435DD20778C2E001DCC2E /* Aukhee Gharhee (feat. Jyotsna Srikanth) - Manika Kaur(Mr-Jatt.Com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D435D520778C2D001DCC2E /* Aukhee Gharhee (feat. Jyotsna Srikanth) - Manika Kaur(Mr-Jatt.Com).mp3 */; };
+		48D435DE20778C2E001DCC2E /* Gurbani | Bandhanaa | Manika Kaur Kandhari | Devotional Song Compilation | Shabad Gurbani Kirtan (320  kbps).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D435D620778C2D001DCC2E /* Gurbani | Bandhanaa | Manika Kaur Kandhari | Devotional Song Compilation | Shabad Gurbani Kirtan (320  kbps).mp3 */; };
+		48D435DF20778C2E001DCC2E /* I Bow to You Waheguru (feat. Talvin Singh) - Manika Kaur(Mr-Jatt.Com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D435D720778C2D001DCC2E /* I Bow to You Waheguru (feat. Talvin Singh) - Manika Kaur(Mr-Jatt.Com).mp3 */; };
+		48D435E020778C2E001DCC2E /* Pootaa Mataa (feat. Bernhard Schimpelsberger) - Manika Kaur(Mr-Jatt.Com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D435D820778C2D001DCC2E /* Pootaa Mataa (feat. Bernhard Schimpelsberger) - Manika Kaur(Mr-Jatt.Com).mp3 */; };
+		48D435E220778C2E001DCC2E /* Ram Japo Ji (feat. Soumik Datta) - Manika Kaur(Mr-Jatt.Com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D435DA20778C2E001DCC2E /* Ram Japo Ji (feat. Soumik Datta) - Manika Kaur(Mr-Jatt.Com).mp3 */; };
+		48D435E320778C2E001DCC2E /* Tu Danaa (feat. Soumik Datta) - Manika Kaur(Mr-Jatt.Com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D435DB20778C2E001DCC2E /* Tu Danaa (feat. Soumik Datta) - Manika Kaur(Mr-Jatt.Com).mp3 */; };
+		48D435E420778C2E001DCC2E /* Waheguru (The Journey) [feat. Reiner Erlings] - Manika Kaur(Mr-Jatt.Com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D435DC20778C2E001DCC2E /* Waheguru (The Journey) [feat. Reiner Erlings] - Manika Kaur(Mr-Jatt.Com).mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48D435AE207783C1001DCC2E /* ShuffleMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuffleMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D435B1207783C1001DCC2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48D435B3207783C1001DCC2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48D435B6207783C1001DCC2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48D435B8207783C1001DCC2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48D435BB207783C1001DCC2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48D435BD207783C1001DCC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D435D520778C2D001DCC2E /* Aukhee Gharhee (feat. Jyotsna Srikanth) - Manika Kaur(Mr-Jatt.Com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Aukhee Gharhee (feat. Jyotsna Srikanth) - Manika Kaur(Mr-Jatt.Com).mp3"; sourceTree = "<group>"; };
+		48D435D620778C2D001DCC2E /* Gurbani | Bandhanaa | Manika Kaur Kandhari | Devotional Song Compilation | Shabad Gurbani Kirtan (320  kbps).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gurbani | Bandhanaa | Manika Kaur Kandhari | Devotional Song Compilation | Shabad Gurbani Kirtan (320  kbps).mp3"; sourceTree = "<group>"; };
+		48D435D720778C2D001DCC2E /* I Bow to You Waheguru (feat. Talvin Singh) - Manika Kaur(Mr-Jatt.Com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I Bow to You Waheguru (feat. Talvin Singh) - Manika Kaur(Mr-Jatt.Com).mp3"; sourceTree = "<group>"; };
+		48D435D820778C2D001DCC2E /* Pootaa Mataa (feat. Bernhard Schimpelsberger) - Manika Kaur(Mr-Jatt.Com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pootaa Mataa (feat. Bernhard Schimpelsberger) - Manika Kaur(Mr-Jatt.Com).mp3"; sourceTree = "<group>"; };
+		48D435DA20778C2E001DCC2E /* Ram Japo Ji (feat. Soumik Datta) - Manika Kaur(Mr-Jatt.Com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ram Japo Ji (feat. Soumik Datta) - Manika Kaur(Mr-Jatt.Com).mp3"; sourceTree = "<group>"; };
+		48D435DB20778C2E001DCC2E /* Tu Danaa (feat. Soumik Datta) - Manika Kaur(Mr-Jatt.Com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tu Danaa (feat. Soumik Datta) - Manika Kaur(Mr-Jatt.Com).mp3"; sourceTree = "<group>"; };
+		48D435DC20778C2E001DCC2E /* Waheguru (The Journey) [feat. Reiner Erlings] - Manika Kaur(Mr-Jatt.Com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Waheguru (The Journey) [feat. Reiner Erlings] - Manika Kaur(Mr-Jatt.Com).mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48D435AB207783C0001DCC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48D435A5207783C0001DCC2E = {
+			isa = PBXGroup;
+			children = (
+				48D435B0207783C1001DCC2E /* ShuffleMusic */,
+				48D435AF207783C1001DCC2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48D435AF207783C1001DCC2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48D435AE207783C1001DCC2E /* ShuffleMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48D435B0207783C1001DCC2E /* ShuffleMusic */ = {
+			isa = PBXGroup;
+			children = (
+				48D435B1207783C1001DCC2E /* AppDelegate.swift */,
+				48D435B3207783C1001DCC2E /* ViewController.swift */,
+				48D435B5207783C1001DCC2E /* Main.storyboard */,
+				48D435B8207783C1001DCC2E /* Assets.xcassets */,
+				48D435BA207783C1001DCC2E /* LaunchScreen.storyboard */,
+				48D435BD207783C1001DCC2E /* Info.plist */,
+				48D435E520778C62001DCC2E /* MyPlaylist */,
+			);
+			path = ShuffleMusic;
+			sourceTree = "<group>";
+		};
+		48D435E520778C62001DCC2E /* MyPlaylist */ = {
+			isa = PBXGroup;
+			children = (
+				48D435D520778C2D001DCC2E /* Aukhee Gharhee (feat. Jyotsna Srikanth) - Manika Kaur(Mr-Jatt.Com).mp3 */,
+				48D435D620778C2D001DCC2E /* Gurbani | Bandhanaa | Manika Kaur Kandhari | Devotional Song Compilation | Shabad Gurbani Kirtan (320  kbps).mp3 */,
+				48D435D720778C2D001DCC2E /* I Bow to You Waheguru (feat. Talvin Singh) - Manika Kaur(Mr-Jatt.Com).mp3 */,
+				48D435D820778C2D001DCC2E /* Pootaa Mataa (feat. Bernhard Schimpelsberger) - Manika Kaur(Mr-Jatt.Com).mp3 */,
+				48D435DA20778C2E001DCC2E /* Ram Japo Ji (feat. Soumik Datta) - Manika Kaur(Mr-Jatt.Com).mp3 */,
+				48D435DB20778C2E001DCC2E /* Tu Danaa (feat. Soumik Datta) - Manika Kaur(Mr-Jatt.Com).mp3 */,
+				48D435DC20778C2E001DCC2E /* Waheguru (The Journey) [feat. Reiner Erlings] - Manika Kaur(Mr-Jatt.Com).mp3 */,
+			);
+			path = MyPlaylist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48D435AD207783C0001DCC2E /* ShuffleMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D435C0207783C1001DCC2E /* Build configuration list for PBXNativeTarget "ShuffleMusic" */;
+			buildPhases = (
+				48D435AA207783C0001DCC2E /* Sources */,
+				48D435AB207783C0001DCC2E /* Frameworks */,
+				48D435AC207783C0001DCC2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShuffleMusic;
+			productName = ShuffleMusic;
+			productReference = 48D435AE207783C1001DCC2E /* ShuffleMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48D435A6207783C0001DCC2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jasbeer Singh";
+				TargetAttributes = {
+					48D435AD207783C0001DCC2E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 48D435A9207783C0001DCC2E /* Build configuration list for PBXProject "ShuffleMusic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48D435A5207783C0001DCC2E;
+			productRefGroup = 48D435AF207783C1001DCC2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48D435AD207783C0001DCC2E /* ShuffleMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48D435AC207783C0001DCC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D435DE20778C2E001DCC2E /* Gurbani | Bandhanaa | Manika Kaur Kandhari | Devotional Song Compilation | Shabad Gurbani Kirtan (320  kbps).mp3 in Resources */,
+				48D435E020778C2E001DCC2E /* Pootaa Mataa (feat. Bernhard Schimpelsberger) - Manika Kaur(Mr-Jatt.Com).mp3 in Resources */,
+				48D435DD20778C2E001DCC2E /* Aukhee Gharhee (feat. Jyotsna Srikanth) - Manika Kaur(Mr-Jatt.Com).mp3 in Resources */,
+				48D435E220778C2E001DCC2E /* Ram Japo Ji (feat. Soumik Datta) - Manika Kaur(Mr-Jatt.Com).mp3 in Resources */,
+				48D435E320778C2E001DCC2E /* Tu Danaa (feat. Soumik Datta) - Manika Kaur(Mr-Jatt.Com).mp3 in Resources */,
+				48D435DF20778C2E001DCC2E /* I Bow to You Waheguru (feat. Talvin Singh) - Manika Kaur(Mr-Jatt.Com).mp3 in Resources */,
+				48D435BC207783C1001DCC2E /* LaunchScreen.storyboard in Resources */,
+				48D435B9207783C1001DCC2E /* Assets.xcassets in Resources */,
+				48D435B7207783C1001DCC2E /* Main.storyboard in Resources */,
+				48D435E420778C2E001DCC2E /* Waheguru (The Journey) [feat. Reiner Erlings] - Manika Kaur(Mr-Jatt.Com).mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48D435AA207783C0001DCC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D435B4207783C1001DCC2E /* ViewController.swift in Sources */,
+				48D435B2207783C1001DCC2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48D435B5207783C1001DCC2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48D435B6207783C1001DCC2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48D435BA207783C1001DCC2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48D435BB207783C1001DCC2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48D435BE207783C1001DCC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48D435BF207783C1001DCC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48D435C1207783C1001DCC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShuffleMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasbeersingh.ShuffleMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48D435C2207783C1001DCC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShuffleMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasbeersingh.ShuffleMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48D435A9207783C0001DCC2E /* Build configuration list for PBXProject "ShuffleMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D435BE207783C1001DCC2E /* Debug */,
+				48D435BF207783C1001DCC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48D435C0207783C1001DCC2E /* Build configuration list for PBXNativeTarget "ShuffleMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D435C1207783C1001DCC2E /* Debug */,
+				48D435C2207783C1001DCC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48D435A6207783C0001DCC2E /* Project object */;
+}

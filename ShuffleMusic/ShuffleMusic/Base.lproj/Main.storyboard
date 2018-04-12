@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14105" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ShuffleMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2018-04-07 at 3.18.42 PM" translatesAutoresizingMaskIntoConstraints="NO" id="9s6-NS-jQa">
+                                <rect key="frame" x="-8" y="0.0" width="383" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="OHt-hB-ZqN">
+                                <rect key="frame" x="67" y="46" width="240" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="H47-bW-3eH"/>
+                                    <constraint firstAttribute="height" constant="87" id="g7U-CW-b3T"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now Playing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHr-6R-uET">
+                                <rect key="frame" x="122.5" y="147" width="130" height="29"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wingspan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDX-Vr-N2E">
+                                <rect key="frame" x="139" y="204" width="97.5" height="27.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="kZk-kN-OF9">
+                                <rect key="frame" x="10" y="375" width="355" height="149"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDR-XE-Iup">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="41"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="25"/>
+                                        <state key="normal" title="Shuffle"/>
+                                        <connections>
+                                            <action selector="shuffleTappe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="546-Lj-RAx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uiZ-4d-QcA">
+                                        <rect key="frame" x="0.0" y="54" width="355" height="41"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="25"/>
+                                        <state key="normal" title="Pause"/>
+                                        <connections>
+                                            <action selector="pauseTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gDp-n5-rI4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8h-jB-wzF">
+                                        <rect key="frame" x="0.0" y="108" width="355" height="41"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="25"/>
+                                        <state key="normal" title="Stop"/>
+                                        <connections>
+                                            <action selector="stopTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y7e-KS-CyE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="149" id="Zys-fQ-RWV"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OHt-hB-ZqN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="0dg-GM-Qcy"/>
+                            <constraint firstItem="rHr-6R-uET" firstAttribute="top" secondItem="OHt-hB-ZqN" secondAttribute="bottom" constant="14" id="5Q2-h8-n2j"/>
+                            <constraint firstItem="JDX-Vr-N2E" firstAttribute="top" secondItem="rHr-6R-uET" secondAttribute="bottom" constant="28" id="8oB-Ob-MKa"/>
+                            <constraint firstItem="JDX-Vr-N2E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9aL-rK-Rte"/>
+                            <constraint firstItem="kZk-kN-OF9" firstAttribute="top" secondItem="OHt-hB-ZqN" secondAttribute="bottom" constant="242" id="D1n-2r-FEf"/>
+                            <constraint firstItem="rHr-6R-uET" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SPB-am-vBh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kZk-kN-OF9" secondAttribute="trailing" constant="10" id="Tzz-OV-Fjl"/>
+                            <constraint firstItem="9s6-NS-jQa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-20" id="XdU-pV-L8o"/>
+                            <constraint firstItem="kZk-kN-OF9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Zax-u5-Ejg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9s6-NS-jQa" secondAttribute="trailing" id="aSa-3c-qRP"/>
+                            <constraint firstItem="OHt-hB-ZqN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c6L-SZ-EhM"/>
+                            <constraint firstItem="9s6-NS-jQa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-8" id="ddU-CG-fk1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9s6-NS-jQa" secondAttribute="bottom" id="l0v-El-29s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="musicName" destination="JDX-Vr-N2E" id="tOH-AM-rHW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen Shot 2018-04-07 at 3.18.42 PM" width="716" height="1198"/>
+        <image name="logo" width="330" height="123"/>
+    </resources>
+</document>
