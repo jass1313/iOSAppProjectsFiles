@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14105" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="buttonCircles" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Bct-lg-Uck">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VEn-b2-uqE" customClass="VC" customModule="buttonCircles" customModuleProvider="target">
+                                <rect key="frame" x="162" y="95" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="19c-tL-3QI"/>
+                                    <constraint firstAttribute="height" constant="50" id="BeO-Mv-Npn"/>
+                                </constraints>
+                                <state key="normal" image="mac"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="21"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderwidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.98748869520000004" green="1" blue="0.9853907127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98R-gp-JxO">
+                                <rect key="frame" x="160" y="442" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="8kS-xG-E9s"/>
+                                    <constraint firstAttribute="height" constant="50" id="R32-PR-oOd"/>
+                                </constraints>
+                                <state key="normal" image="phone"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bct-lg-Uck" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Fmx-eS-v6y"/>
+                            <constraint firstItem="Bct-lg-Uck" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="LCN-kP-46e"/>
+                            <constraint firstItem="VEn-b2-uqE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="OFc-SZ-DVn"/>
+                            <constraint firstItem="VEn-b2-uqE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QiJ-JA-YKM"/>
+                            <constraint firstItem="Bct-lg-Uck" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="XWY-ur-HI4"/>
+                            <constraint firstItem="98R-gp-JxO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="160" id="egO-GL-Ffa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="98R-gp-JxO" secondAttribute="trailing" constant="165" id="pUo-z2-ZoK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="98R-gp-JxO" secondAttribute="bottom" constant="175" id="rL1-Wh-sgH"/>
+                            <constraint firstItem="Bct-lg-Uck" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="urb-nX-Qrw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="414" height="736"/>
+        <image name="mac" width="50" height="50"/>
+        <image name="phone" width="50" height="50"/>
+    </resources>
+</document>
