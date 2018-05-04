@@ -8,8 +8,11 @@ var str = "Hello, playground"
 
 print (1...10)
 
-for Apple in 1...100 {
-    print (Apple*100)
+//the code for continue no. no need to put the 3 ... in with number it will continue unlimited
+for Apple in 1...1000 {
+    print (Apple * 1)
+
+    
 
     
 }
