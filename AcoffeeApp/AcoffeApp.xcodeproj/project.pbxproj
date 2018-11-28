@@ -279,7 +279,6 @@
 		48C2561620610A56002A3B0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CG2MDFGM8;
 				INFOPLIST_FILE = AcoffeApp/Info.plist;
@@ -298,7 +297,6 @@
 		48C2561720610A56002A3B0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CG2MDFGM8;
 				INFOPLIST_FILE = AcoffeApp/Info.plist;
